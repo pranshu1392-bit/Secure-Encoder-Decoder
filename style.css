@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    min-height:100vh;
+    width:100%;
+    font-family:'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg,#000000,#000000,#000000);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    background-image: url(main.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.container{
+
+    width:100%;
+    max-width:420px;
+    background:transparent;
+    text-align:center;
+    padding:10px;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #0659e8;
+    font-size:35px;
+    font-weight:500;
+    white-space:nowrap;
+    text-align:center;
+}
+textarea{
+    width:100%;
+    height:70px;
+    padding:10px;
+
+    border-radius:12px;
+    border:none;
+    outline:none;
+
+    font-size:14px;
+}
+.controls{
+    margin-top:12px;
+}
+select{
+    padding:8px 10px;
+    border-radius:10px;
+    border:none;
+    margin-right:8px;
+}
+button{
+    padding:9px 16px;
+    border:none;
+    border-radius:20px;
+
+    background:rgb(237, 233, 233);
+    color:#e90707;
+    font-weight:bold;
+
+    cursor:pointer;
+    transition:0.3s;
+}
+button:hover{
+    transform:scale(1.07);
+    box-shadow:0 0 15px rgba(255,255,255,0.6);
+}
+h3{
+    margin-top:18px;
+}
+#output{
+    margin-top:10px;
+    padding:12px;
+    border-radius:14px;
+
+    background:rgba(255, 255, 255, 0.2);
+    backdrop-filter:blur(4px);
+
+    min-height:26px;
+    word-wrap:break-word;
+}
+#status{
+margin-top:8px;
+font-size:14px;
+color:#00ffd5;
+}
+
+input[type="password"]{
+width:100%;
+padding:10px;
+border-radius:12px;
+border:none;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+h1{
+color:#2f8cff;
+text-shadow:0 0 15px rgba(47,140,255,0.8);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Secure Encoder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🔐Secure Encoder Decoder</h1>
+
+<textarea id="inputText" placeholder="Enter message"></textarea>
+
+<input type="password" id="key" placeholder="Enter password for encryption">
+
+<div class="controls">
+<select id="mode">
+<option value="encrypt">Encrypt</option>
+<option value="decrypt">Decrypt</option>
+</select>
+
+<button id="runBtn">Run</button>
+<button id="copyBtn">Copy</button>
+</div>
+
+<h3>Status:</h3>
+<div id="status">Ready</div>
+
+<h3>Output:</h3>
+<div id="output"></div>
+
+</div>
+
+<script src="popup.js"></script>
+
+</body>
+</html>
