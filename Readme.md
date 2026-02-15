@@ -2,6 +2,11 @@
 
 Secure Encoder Decoder is a small Chrome extension I built to encrypt and decrypt messages locally using password-based AES-GCM encryption via the browser’s Web Crypto API. The main goal here is simple: keep everything on the user’s device. No servers. No tracking. No background requests. Just local encryption.
 
+## Team Members:
+ - Pranshu Singh(pranshu1392@gmail.com)
+ - Samay Jindal(samayjindal84@gmail.com)
+ - Gourav Gupta(gouravgupta91385@gmail.com)
+
 ## 🚀 What It Can Do
 
 - 🔒 Encrypt messages using AES-GCM (same standard used in modern secure systems)
