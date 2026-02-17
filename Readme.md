@@ -4,8 +4,6 @@ Secure Encoder Decoder is a small Chrome extension I built to encrypt and decryp
 
 ## Team Members:
  - Pranshu Singh(pranshu1392@gmail.com)
- - Samay Jindal(samayjindal84@gmail.com)
- - Gourav Gupta(gouravgupta91385@gmail.com)
 
 ## 🚀 What It Can Do
 
